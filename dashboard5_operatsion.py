@@ -1,4 +1,3 @@
-# dashboard5_operatsion.py
 import psycopg2
 import matplotlib
 
