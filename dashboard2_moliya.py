@@ -1,4 +1,3 @@
-# dashboard2_moliya.py
 import psycopg2
 import matplotlib
 
