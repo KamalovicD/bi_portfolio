@@ -1,4 +1,3 @@
-# dashboard4_mijozlar.py
 import psycopg2
 import matplotlib
 
