@@ -1,4 +1,3 @@
-# dashboard1_savdo.py
 import psycopg2
 import matplotlib
 
