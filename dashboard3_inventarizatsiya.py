@@ -1,4 +1,3 @@
-# dashboard3_inventarizatsiya.py
 import psycopg2
 import matplotlib
 
@@ -42,9 +41,9 @@ def update_chart(parent, filters):
     cursor.close()
     conn.close()
 
-    # Agar filtr orqali tanlangan do'kon bo'yicha ma'lumotlar bo'lsa, ularni chizamiz.
+    
     if results:
-        # Misol uchun, tanlangan do'konning barcha mahsulotlari
+        
         store_name = results[0][0]
         data = [(r[1], r[2]) for r in results if r[0] == store_name]
         product_names = [x[0] for x in data]
