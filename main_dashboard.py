@@ -1,4 +1,3 @@
-# main_dashboard.py
 import tkinter as tk
 from tkinter import ttk
 import dashboard1_savdo
